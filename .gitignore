@@ -1,8 +1,10 @@
 # Compiled class file
 *.class
 
-# Log file
+# Log files
 *.log
+*.log.*.gz
+logs/
 
 # BlueJ files
 *.ctxt
@@ -19,6 +21,178 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Maven
+/target/
+**/target/
+.mvn/
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Test output
+/test-output/
+/test-reports/
+
+# Coverage reports
+/coverage/
+**/coverage/
+*.exec
+*.ec
+*.coverage
+
+# Dependency directories
+/node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+*.mv.db
+
+# Uploads and generated data
+uploads/
+**/uploads/
+
+# Generated sources
+/generated-sources/
+**/generated-sources/
+
+# Build status
+/maven-status/
+**/maven-status/
+
+# Build info
+/build-info.properties
+**/build-info.properties
+
+# Ignore SRS and README backups
+*.bak
+*.old
+
+# Ignore all backup files
+*.bak
+*.backup
+*.orig
+*.save
+
+# Ignore all IDE workspace files
+*.workspace
+*.sublime-workspace
+*.sublime-project
+
+# Ignore all compressed files
+*.gz
+*.7z
+*.tar
+*.tgz
+*.xz
+*.bz2
+
+# Ignore all generated annotation files
+**/annotations/
+
+# Ignore all compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore all compiled TypeScript files
+*.tsbuildinfo
+
+# Ignore all coverage and test result files
+*.lcov
+*.lcov.info
+*.test.js
+*.spec.js
+*.spec.ts
+*.test.ts
+
+# Ignore all build logs
+build.log
+**/build.log
+
+# Ignore all lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore all IDE config files
+*.vscode
+*.idea
+
+# Ignore all workspace files
+*.code-workspace
+
+# Ignore all temp files
+*.tmp
+*.temp
+
+# Ignore all swap files
+*.swp
+*.swo
+
+# Ignore all system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Ignore all output folders
+out/
+**/out/
+
+# Ignore all dist folders
+dist/
+**/dist/
+
+# Ignore all build folders
+build/
+**/build/
+
+# Ignore all JetBrains IDE project files and folders
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/*
+
+# Do not ignore .gitignore itself
+!.gitignore
