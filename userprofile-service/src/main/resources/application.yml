@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Profile-service
+
+  datasource:
+    url: jdbc:postgresql://postgres:5432/AI_ResumeDB
+    username: krishnaPatidar458
+    password: 458336
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+

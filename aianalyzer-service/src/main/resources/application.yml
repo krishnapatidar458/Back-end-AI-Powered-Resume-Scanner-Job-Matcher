@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: AI Analyzer service
+
+  data:
+    mongodb:
+      uri: ${MONOGO_URI}
+      database: AI_ResumeMonogoDb
